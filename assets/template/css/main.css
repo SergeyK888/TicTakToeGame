@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: FiraSans;
+}
+
+.field_hide {
+    display: none;
+    width: 220px;
+}
+
+.head h4 {
+    text-align: center;
+}
+
+.main {
+    display: none;
+    margin-left: 33%;
+}
+
+.container {
+    padding: 10px 0;
+    position: relative;
+    z-index: 0;
+}
+.table {
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    width: 216px;
+    border: none;
+}
+.lines {
+    stroke: #0da192;
+    stroke-width: 6px;
+    transition-duration: 0.375s;
+    -webkit-transition-duration: 0.375s;
+}
+
+.board {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    right: 0;
+    z-index: 0;
+}
+
+.td {
+    height: 71px;
+    padding: 8px;
+    position: relative;
+    vertical-align: top;
+    width: 48px;
+    font-family: Roboto-Regular,HelveticaNeue,Arial,sans-serif;
+    font-weight: 400;
+    border: none !important;
+    outline: none;
+}
+
+.svgX {
+    height: 71px;
+    position: absolute;
+    width: 72px;
+    stroke-width: 16px;
+    top: 2%;
+    left: 0;
+}
+
+.svgO {
+    height: 71px;
+    position: absolute;
+    width: 72px;
+    fill: none;
+    stroke-width: 16px;
+    top: 2%;
+    left: 0;
+}
+
+#btn,#join,#refresh {
+    margin: 10px auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.rooms {
+    border: 1px solid #6d7a7d;
+    margin-bottom: 5px;
+}
+
+.head {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.player_turn {
+    width: 200px;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+.rating_table {
+    margin: 10px;
+}
+
+.rating_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating_item {
+    display: flex;
+    justify-content: space-between;
+    border: 0.1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+}
+
+.rating_item > div {
+    width: 150px;
+}
